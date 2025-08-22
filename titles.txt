@@ -1,49 +1,49 @@
-//TITLES FOR HALF-LIFE
-// Position command $position x y 
-// x & y are from 0 to 1 to be screen resolution independent
-// -1 means center in each dimension
-// Effect command $effect <effect number>
-// effect 0 is fade in/fade out
-// effect 1 is flickery credits
-// effect 2 is write out (training room)
-// Text color r g b command $color
-// fadein time fadeout time / hold time
-// $fadein (message fade in time - per character in effect 2)
-// $fadeout (message fade out time)
-// $holdtime (stay on the screen for this long)
+// ТИТРЫ ДЛЯ HALF-LIFE
+// Команда позиционирования $position x y
+// x и y — значения от 0 до 1 для независимости от разрешения экрана
+// -1 означает центр в каждом измерении
+// Команда эффекта $effect <номер эффекта>
+// эффект 0 — появление/затухание (fade in/fade out)
+// эффект 1 — мерцающие титры (flickery credits)
+// эффект 2 — побуквенное появление текста (как в тренировочном режиме)
+// Команда цвета текста r g b — $color
+// время появления, время исчезновения / время удержания на экране
+// $fadein — время появления текста (для эффекта 2 — на каждый символ)
+// $fadeout — время затухания текста
+// $holdtime — время отображения текста на экране
 
-//INTRO TITLES
-// All centered for now
+// ВСТУПИТЕЛЬНЫЕ ТИТРЫ
+// Пока всё по центру
 $position -1 -1
 $effect 2
-// This is the final color
+// Это основной цвет
 $color 100 100 100
-// This is the highlight color
+// Это цвет выделения
 $color2 240 110 0
-// This is the time it takes to fade each character
+// Время появления каждого символа
 $fadein 0.01
-// This is the amount of time the highlight lags behind the leading edge of the text
+// Время задержки цвета выделения относительно ведущего края текста
 $fxtime 0.25
-// How long to hold the message on the screen (after it scans out)
+// Время удержания сообщения на экране (после полного появления)
 $holdtime 3.5
-// How long it takes to fade out the message after holding
+// Время затухания сообщения после удержания
 $fadeout 1.5
 
 CR27
 {
-Black Mesa Research Facility
-Black Mesa, New Mexico
+Научно-исследовательский центр «Чёрная Меза»
+Чёрная Меза, штат Нью-Мексико
 }
 
 
-//INTRO CREDITS
-// Test values -- JAY
-// Lower left
+// ВСТУПИТЕЛЬНЫЕ ТИТРЫ
+// Тестовые значения — JAY
+// Нижний левый угол
 $position 0.1 0.8
 $effect 1
-// Final fade-in color
+// Цвет для конечного появления (fade-in)
 $color 128 128 128
-// This is the highlight/flash color
+// Цвет подсветки / мигания
 $color2 0 0 0
 $fadein 1.5
 $fadeout 0.5
@@ -52,81 +52,81 @@ $holdtime 1.2
 
 CR1
 {
-Matt Armstrong
+Мэтт Армстронг
 }
 
 CR2
 {
-Stephen Bahl
+Стивен Бейл
 }
 
 CR3
 {
-Sean Cavanaugh
+Шон Кавано
 }
 
 CR4
 {
-Patrick Deupree
+Патрик Дьюпри
 }
 
 CR5
 {
-Rob Heironimus
+Роб Хейронимус
 }
 
 CR6
 {
-Steve Jones
+Стив Джонс
 }
 
 CR7
 {
-Brian Martel
+Брайан Мартел
 }
 
 CR8
 {
-David Mertz
+Дэвид Мертц
 }
 
 CR9
 {
-Landon Montgomery
+Лэндон Монтгомери
 }
 
 CR10
 {
-Stephen Palmer
+Стивен Палмер
 }
 
 CR11
 {
-Randy Pitchford
+Рэнди Питчфорд
 }
 
 CR12
 {
-Sean Reardon
+Шон Рирдон
 }
 
 CR13
 {
-Matthew VanDolen
+Мэтью ВанДолен
 }
 
 CR14
 {
-Mike Wardwell
+Майк Уордвелл
 }
 
 
-//END CREDITS
+// ЗАВЕРШАЮЩИЕ ТИТРЫ
 $position -1 -1
 $effect 0
-// Final fade-in color
+// Финальный цвет появления
 $color 128 128 128
-// This is the highlight/flash color
+// Цвет подсветки / вспышки
 $color2 0 0 0
 $fadein 1
 $fadeout 1
@@ -134,51 +134,51 @@ $holdtime 8
 
 END1
 {
-Matt Armstrong
-Stephen Bahl
-Sean Cavanaugh
-Patrick Deupree
-Rob Heironimus
+Мэтт Армстронг
+Стивен Бейл
+Шон Кавано
+Патрик Дьюпри
+Роб Хейронимус
 }
 
 END2
 {
-Steve Jones
-Brian Martel
-Chris McArthur
-David Mertz
-Landon Montgomery
+Стив Джонс
+Брайан Мартел
+Крис МакАртур
+Дэвид Мертц
+Лэндон Монтгомери
 }
 
 END3
 {
-Stephen Palmer
-Randy Pitchford
-Sean Reardon
-Matthew VanDolen
-Mike Wardwell
+Стивен Палмер
+Рэнди Питчфорд
+Шон Рирдон
+Мэтью ВанДолен
+Майк Уордвелл
 }
 
 SPTHANKS
 {
-Special thanks to:
+Особая благодарность:
 }
 
 THANKS1
 {
-Brian Hess
-Jon St. John
-Kristy Junio
-Joe Kennebec
-Kathy Levin
+Брайан Хесс
+Джон Сент-Джон
+Кристи Джунио
+Джо Кеннебек
+Кэти Левин
 }
 
 THANKS2
 {
-Eli Luna
-Harry S. Robins
-Rob Selitto
-Mike Shapiro
+Элай Луна
+Гарри С. Робинс
+Роб Селитто
+Майк Шапиро
 }
 
 THANKS3
@@ -198,86 +198,86 @@ Half-Life: Blue Shift
 
 GEARBOXIS
 {
-Gearbox is:
+Gearbox — это:
 }
 
 $holdtime 20
 ENDCHEAT
 {
-THE END
+КОНЕЦ
 }
 
-//INTRO TITLES
-// All centered for now
+// ВСТУПИТЕЛЬНЫЕ ТИТРЫ
+// Пока всё по центру
 $position -1 -1
 $effect 2
-// This is the final color
+// Финальный цвет появления
 $color 100 100 100
-// This is the highlight color
+// Цвет подсветки
 $color2 240 110 0
-// This is the time it takes to fade each character
+// Время появления каждого символа
 $fadein 0.01
-// This is the amount of time the highlight lags behind the leading edge of the text
+// Задержка подсветки относительно ведущего края текста
 $fxtime 0.25
-// How long to hold the message on the screen (after it scans out)
+// Время отображения сообщения на экране (после полного появления)
 $holdtime 3.5
-// How long it takes to fade out the message after holding
+// Время затухания сообщения после удержания
 $fadeout 1.3
 
 INTRO1
 {
-SUBJECT:
-B. Calhoun
+ОБЪЕКТ:
+Б. Калхун
 }
 
 CR29
 {
-EDUCATION:
-2 years Martinson College
-Undecided Major
+ОБРАЗОВАНИЕ:
+2 года в колледже Мартинсона
+Не определился со специальностью
 }
 
 CR30
 {
-EMPLOYER:
-Black Mesa Research Facility
+РАБОТОДАТЕЛЬ:
+Научно-исследовательский комплекс «Чёрная Меза»
 }
 
 CR31
 {
-POSITION:
-Security Officer
+ДОЛЖНОСТЬ:
+Сотрудник службы безопасности
 }
 
 CR32
 {
-ASSIGNMENT:
-Area 3 Security
+НАЗНАЧЕНИЕ:
+Охрана зоны 3
 }
 
 CR33
 {
-CLEARANCE:
-Level 3
+УРОВЕНЬ ДОПУСКА:
+Уровень 3
 }
 
 CR34
 {
-DISASTER RESPONSE PRIORITY:
-Preservation of facility 
-equipment and materials.
+ПРИОРИТЕТ В ЧРЕЗВЫЧАЙНЫХ СИТУАЦИЯХ:
+Сохранность оборудования
+и материалов комплекса.
 }
 
 CR35
 {
-SECONDARY PRIORITY:
-Welfare of research personnel.
+ВТОРОСТЕПЕННЫЙ ПРИОРИТЕТ:
+Безопасность научного персонала.
 }
 
 CR36
 {
-LOW PRIORITY:
-Personal safety.
+НИЗКИЙ ПРИОРИТЕТ:
+Личная безопасность.
 }
 
 $fadein 0.03
@@ -285,34 +285,33 @@ $holdtime 9
 
 GAMEOVER
 {
-SUBJECT:  CALHOUN
+ОБЪЕКТ:  КАЛХУН
 
-STATUS:  EMPLOYMENT TERMINATED
+СТАТУС:  УВОЛЕН
 
-REASON FOR TERMINATION:
-Improper handling of a firearm
-in the facility.
+ПРИЧИНА УВОЛЬНЕНИЯ:
+Ненадлежащее обращение с огнестрельным
+оружием на территории комплекса.
 }
 
 XEN1FAILURE
 {
-SUBJECT:  CALHOUN
+ОБЪЕКТ:  КАЛХУН
 
-STATUS:  UNKNOWN
+СТАТУС:  НЕИЗВЕСТЕН
 
-Employee is assumed to have perished with
-remaining personnel during Lambda incident.
-
+Предполагается, что сотрудник погиб вместе с
+оставшимся персоналом во время инцидента в Лямбде.
 }
 
 
 BSGAMEEND
 {
-SUBJECT:  CALHOUN
+ОБЪЕКТ:  КАЛХУН
 
-STATUS:  OUT OF RANGE
+СТАТУС:  ВНЕ ЗОНЫ ДОСТУПА
 
-NO FURTHER COMMENT
+БЕЗ ДОПОЛНИТЕЛЬНЫХ КОММЕНТАРИЕВ
 }
 
 
@@ -320,11 +319,11 @@ $fadein 0.03
 $holdtime 9
 TRAITOR
 {
-SUBJECT:  FREEMAN
+ОБЪЕКТ:  ФРИМЕН
 
-STATUS:  HIRED
+СТАТУС:  НАНЯТ
 
-AWAITING ASSIGNMENT
+ОЖИДАЕТ НАЗНАЧЕНИЯ
 }
 
 
@@ -332,12 +331,12 @@ $fadein 0.03
 $holdtime 9
 LOSER
 {
-SUBJECT:  FREEMAN
+ОБЪЕКТ:  ФРИМЕН
 
-STATUS:  OBSERVATION TERMINATED
+СТАТУС:  НАБЛЮДЕНИЕ ПРЕКРАЩЕНО
 
-POSTMORTEM:
-Subject declined offer of employment.
+ПОСМЕРТНО:
+Объект отказался от предложения о трудоустройстве.
 }
 
 
@@ -346,59 +345,58 @@ $holdtime 9
 
 ROSENDEAD
 {
-SUBJECT:  CALHOUN
+ОБЪЕКТ:  КАЛХУН
 
-STATUS:  UNKNOWN
+СТАТУС:  НЕИЗВЕСТЕН
 
-Employee is assumed to have perished with
-remaining personnel during Lambda incident.
-
+Предполагается, что сотрудник погиб вместе с
+оставшимся персоналом во время инцидента в Лямбде.
 }
 
-//CHAPTER TITLES
+// НАЗВАНИЯ ГЛАВ
 
 $fadein 0.01
 $position -1 0.4
 $holdtime 4
 T0A0TITLE
 {
-HAZARD COURSE
+УЧЕБНЫЙ КУРС
 }
 
 $position -1 0.65
 BA_TRAMTITLE
 {
-LIVING QUARTERS OUTBOUND
+ВНЕШНИЕ ЖИЛЫЕ ПОМЕЩЕНИЯ
 }
 
 BA_SECURITYTITLE
 {
-INSECURITY
+НЕБЕЗОПАСНОСТЬ
 }
 
 BA_CANALSTITLE
 {
-DUTY CALLS
+ДОЛГ ЗОВЁТ
 }
 
 BA_YARDTITLE
 {
-CAPTIVE FREIGHT
+ЗАХВАЧЕННЫЙ ГРУЗ
 }
 
 BA_XENTITLE
 {
-FOCAL POINT
+ТОЧКА ФОКУСИРОВКИ
 }
 
 BA_POWERTITLE
 {
-POWER STRUGGLE
+БОРЬБА ЗА ЭНЕРГИЮ
 }
 
 BA_TELEPORTTITLE
 {
-A LEAP OF FAITH
+ПРЫЖОК ВЕРЫ
 }
 
 $fadein 0.04
@@ -406,44 +404,44 @@ $holdtime 2
 
 CHUMTOAD
 {
-CHUMTOAD'S LAIR
+ЛОГОВО ЧАМТОУДА
 }
 
-// In-Game messages
+// Внутриигровые сообщения
 $position -1 0.65
 $effect 2
-// This is the final color
+// Финальный цвет
 $color 100 100 100
-// This is the highlight color
+// Цвет подсветки
 $color2 240 110 0
-// This is the time it takes to fade each character
+// Время появления каждого символа
 $fadein 0.01
-// This is the amount of time the highlight lags behind the leading edge of the text
+// Время задержки подсветки относительно ведущего края текста
 $fxtime 0.25
-// How long to hold the message on the screen (after it scans out)
+// Время отображения сообщения на экране (после полного появления)
 $holdtime 2.0
-// How long it takes to fade out the message after holding
+// Время затухания сообщения после удержания
 $fadeout 0.5
 
 GAMESAVED
 {
-Saved...
+Сохранено...
 }
 
-// Game title
-// This is a placeholder to hold the effects controls for the "Half-Life" title
+// Название игры
+// Это заглушка для управления эффектами названия "Half-Life"
 $position -1 -1
-// Only effect 0 is supported for game title
+// Для названия игры поддерживается только эффект 0
 $effect 0
-// This is the final color
+// Финальный цвет
 $color 180 180 180
-// Not used color2
+// color2 не используется
 $color2 0 0 0
-// This is the time it takes to fade in the title
+// Время появления названия
 $fadein 1.0
-// How long to hold the message on the screen (after it scans out)
+// Время удержания сообщения на экране (после полного появления)
 $holdtime 3.0
-// How long it takes to fade out the message after holding
+// Время затухания сообщения после удержания
 $fadeout 1.5
 
 GAMETITLE
@@ -451,23 +449,23 @@ GAMETITLE
 Half-Life
 }
 
-//HAZARD COURSE TEXT
+// ТЕКСТ УЧЕБНОГО КУРСА
 
-// Test values -- JAY
+// Тестовые значения — JAY
 $position -1 0.65
-// Scan-out text effect
+// Эффект побуквенного появления текста
 $effect 2
-// This is the final color
+// Финальный цвет
 $color 100 100 100
-// This is the highlight color
+// Цвет подсветки
 $color2 0 200 50
-// This is the time it takes to fade each character
+// Время появления каждого символа
 $fadein 0.005
-// This is the amount of time the highlight lags behind the leading edge of the text
+// Время задержки подсветки относительно ведущего края текста
 $fxtime 0.5
-// How long to hold the message on the screen (after it scans out)
+// Время отображения сообщения на экране (после полного появления)
 $holdtime 3.5
-// How long it takes to fade out the message after holding
+// Время затухания сообщения после удержания
 $fadeout 1.5
 
 $position -1 0.65
