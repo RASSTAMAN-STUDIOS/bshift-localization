@@ -37,7 +37,7 @@ CR27
 
 
 // бярсохрекэмше рхрпш
-// рЕЯРНБШЕ ГМЮВЕМХЪ ≈ JAY
+// рЕЯРНБШЕ ГМЮВЕМХЪ ≈ дфеи
 // мХФМХИ КЕБШИ СЦНК
 $position 0.1 0.8
 $effect 1
@@ -451,7 +451,7 @@ Half-Life
 
 // рейяр свеамнцн йспяю
 
-// рЕЯРНБШЕ ГМЮВЕМХЪ ≈ JAY
+// рЕЯРНБШЕ ГМЮВЕМХЪ ≈ дфеи
 $position -1 0.65
 // щТТЕЙР ОНАСЙБЕММНЦН ОНЪБКЕМХЪ РЕЙЯРЮ
 $effect 2
@@ -471,189 +471,189 @@ $fadeout 1.5
 $position -1 0.65
 HZBUTTON1
 {
-PRESS YOUR USE KEY TO PUSH A BUTTON
+мюфлхре йкюбхьс хяонкэгнбюмхъ, врнаш мюфюрэ ймнойс
 }
 
 HZBUTTON2
 {
-PRESS YOUR USE KEY TO PUSH A BUTTON
+мюфлхре йкюбхьс хяонкэгнбюмхъ, врнаш мюфюрэ ймнойс
 }
 
 HZMOVE
 {
-MOVE FORWARD BY PRESSING FORWARD KEY
-MOVE BACKWARD BY PRESSING BACKWARD KEY
-MOVE LEFT BY PRESSING MOVELEFT
-MOVE RIGHT BY PRESSING MOVERIGHT
+дбхцюиреяэ боеп╗д, мюфюб йкюбхьс боеп╗д
+дбхцюиреяэ мюгюд, мюфюб йкюбхьс мюгюд
+дбхцюиреяэ бкебн, мюфюб йкюбхьс бкебн
+дбхцюиреяэ бопюбн, мюфюб йкюбхьс бопюбн
 }
 
 HZJUMP
 {
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS JUMP KEY TO JUMP
+мюфлхре йкюбхьс боеп╗д, врнаш аефюрэ боеп╗д
+мюфлхре йкюбхьс опшфйю, врнаш опшцмсрэ
 }
 
 HZDUCK
 {
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS DUCK KEY TO DUCK
-PRESS FORWARD + DUCK KEYS TOGETHER 
-TO MOVE IN STEALTH MODE
+мюфлхре йкюбхьс боеп╗д, врнаш аефюрэ боеп╗д
+мюфлхре йкюбхьс опхяедюмхъ, врнаш опхцмсрэяъ
+мюфлхре йкюбхьс боеп╗д + опхяедюмхъ блеяре
+врнаш дбхцюрэяъ б пефхле яйпшрмнярх
 }
 
 HZCOMBO
 {
-PRESS FORWARD KEY TO RUN FORWARD
-PRESS JUMP KEY TO JUMP
-PRESS DUCK KEY TO DUCK
-PRESS JUMP KEY TO JUMP
+мюфлхре йкюбхьс боеп╗д, врнаш аефюрэ боеп╗д
+мюфлхре йкюбхьс опшфйю, врнаш опшцмсрэ
+мюфлхре йкюбхьс опхяедюмхъ, врнаш опхцмсрэяъ
+мюфлхре йкюбхьс опшфйю, врнаш опшцмсрэ
 }
 
 HZDUCKJUMP
 {
-PRESS FORWARD + JUMP TOGETHER,
-THEN THE DUCK KEY
+мюфлхре йкюбхьс боеп╗д + опшфнй блеяре,
+гюрел мюфлхре йкюбхьс опхяедюмхъ
 }
 
 HZLADDER
 {
-PRESS FORWARD KEY TO MOVE UP LADDERS
-PRESS BACKWARD KEY TO MOVE DOWN LADDERS
+мюфлхре йкюбхьс боеп╗д, врнаш дбхцюрэяъ ббепу он кеярмхже
+мюфлхре йкюбхьс мюгюд, врнаш дбхцюрэяъ бмхг он кеярмхже
 }
 
 HZLJUMP
 {
-WHILE MOVING FORWARD,
-HOLD DOWN DUCK KEY--
-THEN PRESS JUMP
+бн бпелъ дбхфемхъ боеп╗д,
+сдепфхбюире йкюбхьс опхяедюмхъ
+гюрел мюфлхре опшфнй
 }
 
 $position -1 0.3
 HZLMOD
 {
-BE SURE YOU PICKED UP THE LONG-JUMP MODULE
-AT THE BEGINNING OF THE OBSTACLE
+саедхреяэ, врн бш бгъкх лндскэ дюкэмецн опшфйю
+б мювюке опеоърярбхъ
 }
 
 $position -1 0.65
 HZMEDKIT
 {
-USE MED-KITS BY HOLDING DOWN THE USE KEY
-HOLD DOWN USE KEY UNTIL HEALTH IS
-AT 100 OR KIT IS DEPLETED
+хяонкэгсире юоревйх, сдепфхбюъ йкюбхьс хяонкэгнбюмхъ
+сдепфхбюире йкюбхьс хяонкэгнбюмхъ, онйю гднпнбэе ме днярхцмер 100
+хкх юоревйю ме йнмвхряъ
 }
 
 HZMOMENT
 {
-ACTIVATE WHEELS AND DIALS 
-BY HOLDING DOWN THE USE KEY
-HOLD USE KEY UNTIL BRIDGE IS IN POSITION
+юйрхбхпсире йнк╗яю х опханпш,
+сдепфхбюъ йкюбхьс хяонкэгнбюмхъ
+сдепфхбюире йкюбхьс хяонкэгнбюмхъ, онйю лняр ме бярюмер б онкнфемхе
 }
 
 HZPUSH
 {
-PRESS FORWARD KEY TO MOVE AGAINST BOX
-KEEP PRESSING FORWARD TO PUSH BOX
+мюфлхре йкюбхьс боеп╗д, врнаш дбхцюрэяъ опнрхб ъыхйю
+опнднкфюире мюфхлюрэ боеп╗д, врнаш рнкйюрэ ъыхй
 }
 
 HZPULL
 {
-PRESS USE + BACKWARD KEYS TOGETHER
-TO PULL BOX BACKWARD
+мюфлхре йкюбхьс хяонкэгнбюмхъ + мюгюд блеяре
+врнаш ръмсрэ ъыхй мюгюд
 }
 
 HZCROWBAR
 {
-MOVE UP TO CROWBAR
-PRESS ATTACK1 KEY TO BREAK OBJECTS
+онднидхре й лнмрхпнбйе
+мюфлхре йкюбхьс юрюйх1, врнаш кнлюрэ назейрш
 }
  
 HZLITEON
 {
-PRESS FLASHLIGHT KEY 
-TO TURN FLASHLIGHT ON
+мюфлхре йкюбхьс тнмюпхйю,
+врнаш бйкчвхрэ тнмюпхй
 }
 
 HZLITEOFF
 {
-PRESS FLASHLIGHT KEY AGAIN 
-TO TURN FLASHLIGHT OFF
+мюфлхре йкюбхьс тнмюпхйю ямнбю,
+врнаш бшйкчвхрэ тнмюпхй
 }
 
 HZWEAPON
 {
-MOVE UP TO WEAPON TO PICK IT UP
+онднидхре й нпсфхч, врнаш бгърэ ецн
 }
 
 HZFIREWEAP
 {
-PRESS ATTACK1 KEY FOR PRIMARY ATTACK
-PRESS ATTACK2 KEY FOR ALTERNATE ATTACK
-PRESS RELOAD KEY TO RELOAD AT WILL
+мюфлхре йкюбхьс юрюйх1 дкъ нямнбмни юрюйх
+мюфлхре йкюбхьс юрюйх2 дкъ юкэрепмюрхбмни юрюйх
+мюфлхре йкюбхьс оепегюпъдйх, врнаш оепегюпъдхрэ нпсфхе
 }
 
 HZARMOR
 {
-PRESS AND HOLD YOUR USE KEY
-HOLD DOWN UNTIL SUIT ARMOR IS CHARGED
-OR CHARGER IS DEPLETED
+мюфлхре х сдепфхбюире йкюбхьс хяонкэгнбюмхъ
+сдепфхбюире, онйю апнмъ йнярчлю ме гюпъдхряъ
+хкх гюпъдмхй ме хярпюрхр щмепцхч
 }
 
 HZSWIM
 {
-PRESS YOUR FORWARD KEY
-AIM WITH THE MOUSE AS YOU SWIM
-FIND AIR IF YOU BEGIN TO LOSE HEALTH
-WAIT IN THE AIR UNTIL HEALTH 
-RETURNS TO FORMER LEVEL
+мюфлхре йкюбхьс боеп╗д
+жекэреяэ я онлныэч лшьх, онйю окшб╗ре
+мюидхре бнгдсу, еякх мювм╗ре репърэ гднпнбэе
+нфхдюире б бнгдсуе, онйю гднпнбэе
+ме бепм╗ряъ мю опефмхи спнбемэ
 }
 
 HZDAMAGE
 {
-CERTAIN TYPES OF DAMAGE WILL REGISTER 
-ON YOUR HEADS-UP DISPLAY.
-DIRECTION OF DAMAGE IS INDICATED BY RED 
-FLASHES IN THE CENTER OF YOUR SCREEN
+нопедек╗ммше бхдш спнмю асдср нрпюфюрэяъ
+мю бюьел хмдхйюрнпе.
+мюопюбкемхе спнмю сйюгюмн йпюямшлх
+лхцючыхлх бяошьйюлх б жемрпе щйпюмю
 }
 
 HZHAZARD
 {
-RADIATION HAZARDS 
-ACTIVATE A GEIGER COUNTER
+пюдхюжхнммше ноюямнярх
+юйрхбхпсчр яв╗рвхй цеицепю
 }
 
 HZSCIENTIST
 {
-APPROACH SCIENTIST
-PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
+онднидхре й св╗мнлс
+мюфлхре йкюбхьс хяонкэгнбюмхъ, врнаш онксвхрэ гднпнбэе нр св╗мнцн
 }
 
 HZBARNEY
 {
-APPROACH SCIENTIST
-PRESS YOUR USE KEY TO GET HIS HELP
-WALK TOWARD DOOR AND SCIENTIST
-WILL ACTIVATE THE RETINAL SCANNER
+онднидхре й св╗мнлс
+мюфлхре йкюбхьс хяонкэгнбюмхъ, врнаш онксвхрэ ецн онлныэ
+онднидхре й дбепх, х св╗мши
+юйрхбхпсер яйюмеп яервюрйх
 }
 
 HZTRAIN
 {
-PRESS USE KEY TO ENGAGE TRAIN
-PRESS FORWARD KEY TO ACCELERATE
-PRESS BACKWARD KEY TO DECELERATE
-PRESS USE KEY AGAIN TO DISENGAGE
+мюфлхре йкюбхьс хяонкэгнбюмхъ, врнаш гюосярхрэ онегд
+мюфлхре йкюбхьс боеп╗д, врнаш сяйнпхрэ
+мюфлхре йкюбхьс мюгюд, врнаш гюледкхрэ
+мюфлхре йкюбхьс хяонкэгнбюмхъ ямнбю, врнаш нярюмнбхрэ
 }
 
 HZDONE
 {
-CONGRATULATIONS!
-YOU HAVE COMPLETED 
-THE BLACK MESA HAZARD COURSE.
-COME BACK ANY TIME.
+онгдпюбкъел!
+бш гюбепьхкх
+свеамши йспя он ноюямняръл в╗пмни легш.
+бнгбпюыюиреяэ б кчане бпелъ.
 }
 
 HZWEAPONSTRIP
 {
-ENTERING CIVILIAN AREA
-REMOVING WEAPONS NOW
+бунд б цпюфдюмяйсч гнмс
+нпсфхе хгшлюеряъ
 }
