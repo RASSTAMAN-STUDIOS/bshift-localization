@@ -124,29 +124,6 @@ HG_GOT_BARNEY hgrunt/hg_got_barney
 NA0 access denied
 NA1 access granted
 
-// C1A0 intercom\
-
-// C1A2 intercom administration center sector d
-
-// C1A3 intercom high security materials storage area sector d
-
-// C1A4 intercom experimental propulsion labs silo d
-
-// C2A1 intercom track control sector e
-
-// C2A2 intercom launch control silo e
-
-// C2A3 observation tank1, 2. cryogenic system
-
-// C2A4 intercom bio waste processing plant. advanced biological research lab
-
-// C2A5 intercom tactical operations center, motorpool, armory, hydro plant, checkpoint alpha/bravo/delta, barracks, hangars
-// silent
-
-// C3A1 intercom central command and communications
-
-// C3A2 intercom lambda reactor complex.main reactor facility. radioactive materials handling bay
-
 // countdown
 
 CTR0 zero
@@ -170,32 +147,6 @@ CTR17 seventeen
 CTR18 eighteen
 CTR19 nineteen
 CTR20 twenty seconds remaining
-
-// doors, general
-
-// doors, security lockout
-
-// blast doors
-
-// fire door
-
-// chemical door
-
-// radiation door
-
-// generic containment door
-
-// broken locked door
-
-// maintenance door
-
-// turrets, defensive systems
-
-// warnings
-
-// danger
-
-// training room
 
 // VOX sounds for Barney
 VOX_ELEV1 deeoo, warning, main power failure on levels three, five and eight, deeoo
@@ -472,7 +423,7 @@ BA_SHOT3 barney/ba_shot4
 BA_SHOT4 barney/ba_shot5
 BA_SHOT5 barney/ba_whatyou
 
-//When Barney’s really pissed at you:
+//When Barneyâ€™s really pissed at you:
 BA_MAD0 barney/ba_stepoff
 BA_MAD1 barney/ba_iwish
 BA_MAD2 barney/ba_uwish
@@ -481,7 +432,7 @@ BA_MAD4 barney/ba_endline
 BA_MAD5 barney/ba_dontmake
 BA_MAD6 barney/ba_tomb
 
-//When Barney’s killed something
+//When Barneyâ€™s killed something
 BA_KILL0 barney/ba_gotone
 BA_KILL1 barney/ba_another
 BA_KILL2 barney/ba_buttugly
@@ -502,10 +453,10 @@ BA_LIGHTSON holo/tr_ba_lightson
 
 //If you use Barney before the disaster
 BA_POK0 barney/ba_pok0
-BA_POK0 barney/ba_pok1
-BA_POK1 barney/ba_pok2
-BA_POK2 barney/ba_pok3
-BA_POK3 barney/ba_later
+BA_POK1 barney/ba_pok1
+BA_POK2 barney/ba_pok2
+BA_POK3 barney/ba_pok3
+BA_POK4 barney/ba_later
 
 // if barney can't follow you
 BA_STOP0 barney/stop1
@@ -1352,14 +1303,3 @@ HOLO_STEAM ba_holo/tr_holo_steam
 HOLO_TARGET ba_holo/tr_holo_target
 HOLO_TRYAGAIN ba_holo/tr_holo_tryagain
 HOLO_USETRAIN ba_holo/tr_holo_usetrain
-
-//GMAN
-
-//c1a0 narrative
-
-//c5 narrative
-
-// Quick fix
-
-SC_RESCUED scientist/c1a3_sci_rescued
-
