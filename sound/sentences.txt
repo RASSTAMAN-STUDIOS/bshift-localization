@@ -1,108 +1,108 @@
-// HALF-LIFE SPEECH SYSTEM SENTENCES. DO NOT MODIFY THIS FILE! Max of 1023 sentences.
+// ФРАЗЫ РЕЧЕВОЙ СИСТЕМЫ HALF-LIFE. НЕ ИЗМЕНЯЙТЕ ЭТОТ ФАЙЛ! Максимум — 1023 фразы.
 
-// HUMAN GRUNTS
-HG_GREN0 hgrunt/clik(p120) grenade! clik
-HG_GREN1 hgrunt/(t30) clik take!(e75) cover!(s5) clik
-HG_GREN2 hgrunt/clik clik oh! shit! clik
-HG_GREN3 hgrunt/(p110 t40) clik(p120) get!(e78) down!(t30) clik 
-HG_GREN4 hgrunt/clik(p110) (t40) of!(e75) god! clik(p110)
-HG_GREN5 hgrunt/clik no! clik
-HG_GREN6 hgrunt/clik move! clik(p120)
+// СОЛДАТЫ HECU
+HG_GREN0 hgrunt/clik(p120) rus_hgrunt_001(e100) clik
+HG_GREN1 hgrunt/clik rus_hgrunt_002(e100) clik
+HG_GREN2 hgrunt/clik clik rus_hgrunt_003(e100) clik
+HG_GREN3 hgrunt/clik(p120) rus_hgrunt_004(e100) clik 
+HG_GREN4 hgrunt/clik(p110) rus_hgrunt_005(e100) clik(p110)
+HG_GREN5 hgrunt/clik rus_hgrunt_006(e100) clik
+HG_GREN6 hgrunt/clik rus_hgrunt_007(e100) clik(p120)
 
-// Player Alert
-HG_ALERT0 hgrunt/(t30) squad!, we!(e80) got!(e80) hostiles!(t20 p105), clik(p110)
-HG_ALERT1 hgrunt/clik(p110) target! clik
-HG_ALERT2 hgrunt/clik movement! clik
-HG_ALERT3 hgrunt/(t40) shit!(t20), (t50) we! got! hostiles!(p120 t0) clik
-HG_ALERT4 hgrunt/(t20) clik squad!, neutralize!(e90) hostiles! clik
-HG_ALERT5 hgrunt/(t30) clik clik move!(e75) in! clik(p120)
+// Обнаружен игрок
+HG_ALERT0 hgrunt/clik rus_hgrunt_017(e100) clik(p110)
+HG_ALERT1 hgrunt/clik(p110) rus_hgrunt_009(e100) clik
+HG_ALERT2 hgrunt/clik rus_hgrunt_010(e100) clik
+HG_ALERT3 hgrunt/clik rus_hgrunt_011(e100) clik
+HG_ALERT4 hgrunt/clik(p110) rus_hgrunt_016(e100) clik(p110) clik
+HG_ALERT5 hgrunt/clik rus_hgrunt_017(e100) clik
 
-// Monster Alert
-HG_MONST0 hgrunt/clik(p110) (t50) bogies!(t0), my! sector!(t0) clik
-HG_MONST1 hgrunt/clik(p110) (t40) clik(p120) we!(e75) got! bogies! clik
-HG_MONST2 hgrunt/clik clik (t30) alien!(e85) alert! clik
-HG_MONST3 hgrunt/clik clik (t30) alien!(e85) movement!(t0) clik(p120)
+// Обнаружен монстр
+HG_MONST0 hgrunt/clik(p110) rus_hgrunt_015(e100) clik
+HG_MONST1 hgrunt/clik(p110) clik(p120) rus_hgrunt_016(e100) clik
+HG_MONST2 hgrunt/clik clik rus_hgrunt_017(e100) clik
+HG_MONST3 hgrunt/clik clik rus_hgrunt_018(e100) clik(p120)
 
-// Take cover
-HG_COVER0 hgrunt/clik (t30) take! cover!(t0) clik
-HG_COVER1 hgrunt/clik (t45) (e75) I!(e80) need!(e80) suppressing!(t20) fire!(t10) clik
-HG_COVER2 hgrunt/clik (t45) we! need! backup!(t10) clik
-HG_COVER3 hgrunt/clik(p120) (t40) two!(e75) hot!(e80) here! clik
-HG_COVER4 hgrunt/clik(p110) (t30) fall!(e80) out! clik clik
-HG_COVER5 hgrunt/clik(p120) (t20) clear! this! area! clik
-HG_COVER6 hgrunt/clik (t40) god! damn! clik
-HG_COVER7 hgrunt/clik (t40) cover!(e75) fire! clik
+// Команда укрыться
+HG_COVER0 hgrunt/clik(t30) rus_hgrunt_002(e100) clik
+HG_COVER1 hgrunt/clik(t45) rus_hgrunt_019(e100) clik
+HG_COVER2 hgrunt/clik(t45) rus_hgrunt_020(e100) clik
+HG_COVER3 hgrunt/clik(p120) rus_hgrunt_021(e100) clik
+HG_COVER4 hgrunt/clik(p110) rus_hgrunt_022(e100) clik clik
+HG_COVER5 hgrunt/clik(p120) rus_hgrunt_023(e100) clik
+HG_COVER6 hgrunt/clik(t40) rus_hgrunt_024(e100) clik
+HG_COVER7 hgrunt/clik(t40) rus_hgrunt_025(e100) clik
 
-// Throw grenade
-HG_THROW0 hgrunt/clik(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) clik
-HG_THROW1 hgrunt/clik (t30) take!(e75) this!(e100 t0) clik
-HG_THROW2 hgrunt/clik (t35) fire in the(e50) hole clik(p120)
-HG_THROW3 hgrunt/clik(p110) (t35 e80) squad, stay down clik
+// Бросок гранаты
+HG_THROW0 hgrunt/clik(p120) rus_hgrunt_026(e100) clik
+HG_THROW1 hgrunt/clik(t30) rus_hgrunt_027(e100) clik
+HG_THROW2 hgrunt/clik(t35) rus_hgrunt_026(e100) clik(p120)
+HG_THROW3 hgrunt/clik(p110) rus_hgrunt_028(e100) clik
  
-// Taunt
-HG_TAUNT0 hgrunt/clik (t30 e75) uhh, we got heavy fire here clik
-HG_TAUNT1 hgrunt/clik(p120) (t40) roger, hold position clik
-HG_TAUNT2 hgrunt/clik (t40) we!(e80) will!(e75) kick!(e80) your!(e75) ass! clik
-HG_TAUNT3 hgrunt/clik (t40) mister, you(e75) are going down clik
-HG_TAUNT4 hgrunt/clik(p120) (t40) you got nothing clik
-HG_TAUNT5 hgrunt/clik(p110) (t40) request! backup! clik(p120) clik
+// Насмешка
+HG_TAUNT0 hgrunt/clik (t30 e75) rus_hgrunt_029(e100) clik
+HG_TAUNT1 hgrunt/clik(p120) rus_hgrunt_030(e100) clik
+HG_TAUNT2 hgrunt/clik (t40) rus_hgrunt_031(e100) clik
+HG_TAUNT3 hgrunt/clik (t40) rus_hgrunt_032(e100) clik
+HG_TAUNT4 hgrunt/clik(p120) rus_hgrunt_033(e100) clik
+HG_TAUNT5 hgrunt/clik(p110) rus_hgrunt_034(e100) clik(p120) clik
 
-// Charge
-HG_CHARGE0 hgrunt/clik (t40) go! recon! clik(p120)
-HG_CHARGE1 hgrunt/clik(p110) (t40) move!(e75) in! clik
-HG_CHARGE2 hgrunt/clik go! clik(p120)
-HG_CHARGE3 hgrunt/clik lets! go! clik(p120)
+// Атака, наступление
+HG_CHARGE0 hgrunt/clik (t40) rus_hgrunt_035(e100) clik(p120)
+HG_CHARGE1 hgrunt/clik(p110) rus_hgrunt_014(e100) clik
+HG_CHARGE2 hgrunt/clik rus_hgrunt_036(e100) clik(p120)
+HG_CHARGE3 hgrunt/clik rus_hgrunt_010(e100) clik(p120)
 
-// Idle
+// Ожидание / Покой
 HG_IDLE0 hgrunt/gr_idle1
 HG_IDLE1 hgrunt/gr_idle2
 HG_IDLE2 hgrunt/gr_idle3
 
-HG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)
-HG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120) 
-HG_QUEST2 hgrunt/clik (t20) maintain lookout clik(p120)
-HG_QUEST3 hgrunt/clik(p110) (t30) squad, quiet(e75) down clik(p120)
-HG_QUEST4 hgrunt/clik(p120) (t30) hold position, clik
-HG_QUEST5 hgrunt/clik(p120) (t30) sweep(e80) that sector, clik(p120) clik(p120)
-HG_QUEST6 hgrunt/clik(p120) (t30) uhh, go tango sweep formation clik(p120) clik(p120)
-HG_QUEST7 hgrunt/clik(p120) (t30) echo(e75) mission is go clik(p120) clik(p120)
-HG_QUEST8 hgrunt/clik(p110) (t30) fire(e75) team, weapons(e75) check ok clik(p120) clik
-HG_QUEST9 hgrunt/clik(p110) (t30) fire(e75) team, objective foxtrot niner clik(p120)
-HG_QUEST10 hgrunt/clik (t30) ok(e75) mission, zero(e75) niner clik
-HG_QUEST11 hgrunt/clik (t30) squad, stay(e80) alert(e80) four hostiles, over clik
+HG_QUEST0 hgrunt/clik rus_hgrunt_037(e100) clik(p120)
+HG_QUEST1 hgrunt/clik rus_hgrunt_038(e100) clik(p120) 
+HG_QUEST2 hgrunt/clik rus_hgrunt_039(e100) clik(p120)
+HG_QUEST3 hgrunt/clik(p110) rus_hgrunt_040(e100) clik(p120)
+HG_QUEST4 hgrunt/clik(p120) rus_hgrunt_041(e100) clik
+HG_QUEST5 hgrunt/clik(p120) rus_hgrunt_042(e100) clik(p120) clik(p120)
+HG_QUEST6 hgrunt/clik(p120) rus_hgrunt_043(e100) clik(p120) clik(p120)
+HG_QUEST7 hgrunt/clik(p120) rus_hgrunt_044(e100) clik(p120) clik(p120)
+HG_QUEST8 hgrunt/clik(p110) rus_hgrunt_045(e100) clik(p120) clik
+HG_QUEST9 hgrunt/clik(p110) rus_hgrunt_046(e100) clik(p120)
+HG_QUEST10 hgrunt/clik rus_hgrunt_047(e100) clik
+HG_QUEST11 hgrunt/clik rus_hgrunt_037(e100) clik
 
-HG_ANSWER0 hgrunt/clik(p110) (t20) uhh roger(e75) that, clik(p120) clik
-HG_ANSWER1 hgrunt/clik(p120) (t10) yessir clik
-HG_ANSWER2 hgrunt/clik(p120) (t30) affirmative, sir clik
-HG_ANSWER3 hgrunt/clik (t30) negative clik(p120) clik
-HG_ANSWER4 hgrunt/clik(p105) (t30) roger clik
-HG_ANSWER5 hgrunt/clik(p105) (t30) ok control clik
-HG_ANSWER6 hgrunt/clik(p105) (t30) that(e75) is, uhh, affirmative clik
+HG_ANSWER0 hgrunt/clik(p110) rus_hgrunt_049(e100) clik(p120) clik
+HG_ANSWER1 hgrunt/clik(p120) rus_hgrunt_050(e100) clik
+HG_ANSWER2 hgrunt/clik(p120) rus_hgrunt_051(e100) clik
+HG_ANSWER3 hgrunt/clik rus_hgrunt_052(e100) clik(p120) clik
+HG_ANSWER4 hgrunt/clik(p105) rus_hgrunt_053(e100) clik
+HG_ANSWER5 hgrunt/clik(p105) rus_hgrunt_054(e100) clik
+HG_ANSWER6 hgrunt/clik(p105) rus_hgrunt_055(e100) clik
 
-HG_CLEAR0 hgrunt/clik(p130) (t30) all(e75) clear sir, clik
-HG_CLEAR1 hgrunt/clik (t30) bravo(e75) post, clear clik(p120)
-HG_CLEAR2 hgrunt/clik(p110) (t30) delta(e75) team, clear clik(p120)
-HG_CLEAR3 hgrunt/clik(p110) (t40) no sign hostiles sir, over clik(p120)
-HG_CLEAR4 hgrunt/clik (t30) no(e80) sign objective sir, over clik(p120)
-HG_CLEAR5 hgrunt/clik (t30) no(e75) movement this level clik(p120)
-HG_CLEAR6 hgrunt/clik(p120) (t28) sir, sector secure, over clik(p120) clik(p120)
-HG_CLEAR7 hgrunt/clik(p120) (t30) command(e75) post, team in position, over clik
-HG_CLEAR8 hgrunt/clik (t30) recon, in(e75) position, all quiet clik(p120)
-HG_CLEAR9 hgrunt/clik(p110) (t30) lookout(e90) post, all quiet, over clik(p110)
-HG_CLEAR10 hgrunt/clik (t40) sir, I(e80) here(e75) something clik
-HG_CLEAR11 hgrunt/clik(p120) (t30) sir, uhh, zero movement, over clik
-HG_CLEAR12 hgrunt/clik (t30) area secure sir, over clik(p120)
+HG_CLEAR0 hgrunt/clik(p130) rus_hgrunt_056(e100) clik
+HG_CLEAR1 hgrunt/clik rus_hgrunt_057(e100) clik(p120)
+HG_CLEAR2 hgrunt/clik(p110) rus_hgrunt_058(e100) clik(p120)
+HG_CLEAR3 hgrunt/clik(p110) rus_hgrunt_059(e100) clik(p120)
+HG_CLEAR4 hgrunt/clik rus_hgrunt_060(e100) clik(p120)
+HG_CLEAR5 hgrunt/clik rus_hgrunt_061(e100) clik(p120)
+HG_CLEAR6 hgrunt/clik(p120) rus_hgrunt_062(e100) clik(p120) clik(p120)
+HG_CLEAR7 hgrunt/clik(p120) rus_hgrunt_063(e100) clik
+HG_CLEAR8 hgrunt/clik rus_hgrunt_064(e100) clik(p120)
+HG_CLEAR9 hgrunt/clik(p110) rus_hgrunt_065(e100) clik(p110)
+HG_CLEAR10 hgrunt/clik rus_hgrunt_066(e100) clik
+HG_CLEAR11 hgrunt/clik(p120) rus_hgrunt_067(e100) clik
+HG_CLEAR12 hgrunt/clik rus_hgrunt_068(e100) clik(p120)
 
-HG_CHECK0 hgrunt/clik (t30) ok, check(e75) in clik
-HG_CHECK1 hgrunt/clik(p110) (t30) squad, are(e80) hostiles clear clik(p120)
-HG_CHECK2 hgrunt/clik (t30) check(e80) in people clik
-HG_CHECK3 hgrunt/clik (t30) lookout, check(e75) in clik(p110)
-HG_CHECK4 hgrunt/clik (t30) recon(e90) team, check(e80) in clik
-HG_CHECK5 hgrunt/clik(p130) (t30) movement check, over clik
-HG_CHECK6 hgrunt/clik (t30) check your zone, over, clik
-HG_CHECK7 hgrunt/clik (t30) everything(e85) ok(e75) there, clik(p130)
+HG_CHECK0 hgrunt/clik rus_hgrunt_069(e100) clik
+HG_CHECK1 hgrunt/clik(p110) rus_hgrunt_070(e100) clik(p120)
+HG_CHECK2 hgrunt/clik rus_hgrunt_071(e100) clik
+HG_CHECK3 hgrunt/clik rus_hgrunt_072(e100) clik(p110)
+HG_CHECK4 hgrunt/clik rus_hgrunt_073(e100) in clik
+HG_CHECK5 hgrunt/clik(p130) rus_hgrunt_074(e100) clik
+HG_CHECK6 hgrunt/clik rus_hgrunt_075(e100) clik
+HG_CHECK7 hgrunt/clik rus_hgrunt_076(e100) clik(p130)
 
-//narrative
+// Сюжетные фразы
 
 HG_DRAG1A hgrunt/c2a3_hg_1drag
 HG_DRAG2A hgrunt/c2a3_hg_2drag
@@ -111,7 +111,7 @@ HG_DRAG4A hgrunt/c2a3_hg_4drag
 HG_DRAG5A hgrunt/c2a3_hg_5drag
 HG_DRAG6A hgrunt/c2a3_hg_laugh
 
-// scripts for 'barney'
+// Сценарии для 'Барни'
 HG_CANAL1 hgrunt/hg_canal1
 HG_CANAL2 hgrunt/hg_canal2
 HG_CANAL3 hgrunt/hg_canal3
@@ -119,45 +119,45 @@ HG_CANAL3 hgrunt/hg_canal3
 HG_GOT_BARNEY hgrunt/hg_got_barney
 
 
-// BASE COMPUTER
+// БАЗОВЫЙ КОМПЬЮТЕР
 
-NA0 access denied
-NA1 access granted
+NA0 dostup(e80) zaprescheon
+NA1 dostup(e80) predostavlen
 
-// countdown
+// Обратный отсчёт
 
-CTR0 zero
-CTR1 one second
-CTR2 two 
-CTR3 three seconds
-CTR4 four 
-CTR5 five seconds remaining
-CTR6 six
-CTR7 seven
-CTR8 eight 
-CTR9 nine
-CTR10 ten seconds remaining
-CTR11 eleven
-CTR12 twelve
-CTR13 thirteen
-CTR14 fourteen
-CTR15 fifteen seconds remaining
-CTR16 sixteen 
-CTR17 seventeen
-CTR18 eighteen
-CTR19 nineteen
-CTR20 twenty seconds remaining
+CTR0 nol
+CTR1 odna(e70) sekunda
+CTR2 dve
+CTR3 tri(e60) sekundy
+CTR4 chetyre
+CTR5 ostalos(e70) pjat(e60) sekund
+CTR6 shest
+CTR7 sem
+CTR8 vosem
+CTR9 devjat
+CTR10 ostalos(e70) desjat(e70) sekund
+CTR11 odinnadtsat
+CTR12 dvenadtsat
+CTR13 trinadtsat
+CTR14 chetyrnadtsat
+CTR15 ostalos(e70) pjatnadtsat(e70) sekund
+CTR16 shestnadtsat
+CTR17 semnadtsat
+CTR18 vosemnadtsat
+CTR19 devjatnadtsat
+CTR20 ostalos(e70) dvadtsat(e70) sekund
 
-// VOX sounds for Barney
-VOX_ELEV1 deeoo, warning, main power failure on levels three, five and eight, deeoo
-VOX_ELEV2 deeoo, warning, extreme electromagnetic field hazard in sector c, deeoo
+// VOX звуки для Барни
+VOX_ELEV1 deeoo, vnimanie, obnaruzhen(e70) sboi(e70) osnovnogo(e80) pitaniya(s5 e80) na(e60) urovnjakh(e90) tri(e80) pjat(e80) _i_(e60) vosem(s10 e50), deeoo
+VOX_ELEV2 deeoo, vnimanie, zafiksirovana(e70) chrezvychaino(e75) vysokaja(s10 e75) opasnost(e80) elektromagnitnogo(e80) polya(s5 e80) v(e50) sektore(e70) si(e90), deeoo
 
 
-// HEV Suit
-// For Barney, HEV_* have been replaced with the 'common/null' sound
-// to eliminate suit sounds (since you don't have one) and avoid error messages
+// Костюм HEV
+// Для Барни фразы HEV_* заменены на 'common/null'
+// чтобы убрать звуки костюма (ведь у него его нет) и избежать ошибок
 
-// powerup
+// Запуск
 
 HEV_AAx common/null
 HEV_A0 common/null
@@ -173,7 +173,7 @@ HEV_A8 common/null
 HEV_A9 common/null
 HEV_A10 common/null
 
-// medical
+// Медицинские уведомления
 HEV_DEAD0 common/null
 HEV_DEAD1 common/null
 
@@ -211,7 +211,7 @@ HEV_HLTH6 common/null
 HEV_SHOCK common/null
 HEV_FIRE common/null
 
-// items
+// Предметы
 HEV_AIM_ON common/null
 HEV_AIM_OFF common/null
 HEV_BATTERY common/null
@@ -239,12 +239,12 @@ HEV_RPGAMMO common/null
 HEV_AGRENADE common/null
 HEV_EGONPOWER common/null
 
-// time
+// Время
 
 //HEV_C1t common/null
 //HEV_C13t common/null
 
-// power levels
+// Уровни энергии
 
 HEV_D00 common/null
 HEV_D01 common/null
@@ -270,11 +270,11 @@ HEV_17P common/null
 HEV_18P common/null
 HEV_19P common/null
 
-// weapon/ammo
+// Оружие/Патроны
 
 HEV_AMO0 common/null
 
-// suit
+// Костюм
 
 HEV_V0 common/null
 HEV_V1 common/null
@@ -286,14 +286,14 @@ HEV_E3 common/null
 HEV_E4 common/null
 HEV_E5 common/null
 
-// time remaining countdown
+// Обратный отсчёт оставшегося времени
 
 //HEV_F10t common/null
 //HEV_F15t common/null
 //HEV_F20t common/null
 //HEV_F30t common/null
 
-// detections
+// Обнаружения
 
 HEV_DET0 common/null
 HEV_DET1 common/null
@@ -307,7 +307,7 @@ HEV_DET5 common/null
 //HEV_GR2r common/null
 
 
-// BARNEY
+// БАРНИ
 
 BA_OK0 barney/teamup2
 BA_OK1 barney/dobettertogether
@@ -371,7 +371,7 @@ BA_ANSWER19 barney/bequiet
 BA_ANSWER20 barney/youtalkmuch
 BA_ANSWER21 barney/alreadyasked
 
-// player is staring at scientist
+// Игрок уставился на Барни
 BA_STARE0 barney/yup
 BA_STARE1 barney/yessir
 BA_STARE2 barney/howyoudoing
@@ -423,7 +423,7 @@ BA_SHOT3 barney/ba_shot4
 BA_SHOT4 barney/ba_shot5
 BA_SHOT5 barney/ba_whatyou
 
-//When Barney’s really pissed at you:
+// Когда Барни по-настоящему зол на тебя:
 BA_MAD0 barney/ba_stepoff
 BA_MAD1 barney/ba_iwish
 BA_MAD2 barney/ba_uwish
@@ -432,7 +432,7 @@ BA_MAD4 barney/ba_endline
 BA_MAD5 barney/ba_dontmake
 BA_MAD6 barney/ba_tomb
 
-//When Barney’s killed something
+// Когда Барни кого-то/что-то убил
 BA_KILL0 barney/ba_gotone
 BA_KILL1 barney/ba_another
 BA_KILL2 barney/ba_buttugly
@@ -442,30 +442,30 @@ BA_KILL5 barney/ba_firepl
 BA_KILL6 barney/ba_bring
 
 
-//If you use Barney in Hazard Course
+// Если ты используешь Барни в учебном курсе
 BA_HAZ_OK0 holo/tr_ba_use
 
-//If you unuse Barney in Hazard Course
+// Если ты не используешь Барни в учебном курсе
 BA_HAZ_WAIT0 holo/tr_ba_unuse
 
-//Barney in Hazard Course
+// Барни в учебном курсе
 BA_LIGHTSON holo/tr_ba_lightson
 
-//If you use Barney before the disaster
+// Если ты используешь Барни до катастрофы
 BA_POK0 barney/ba_pok0
 BA_POK1 barney/ba_pok1
 BA_POK2 barney/ba_pok2
 BA_POK3 barney/ba_pok3
 BA_POK4 barney/ba_later
 
-// if barney can't follow you
+// Если Барни не может следовать за тобой
 BA_STOP0 barney/stop1
 BA_STOP1 barney/stop2
 BA_STOP2 barney/stop3
 
-//scripted_sentences
+// Заскриптованные фразы
 
-// ba_security scripts
+// Скрипты из ba_security
 BA_SEC1_D1 barney/ba_security1_door1
 BA_SEC1_D2 barney/ba_security1_door2
 BA_SEC1_D3 barney/ba_security1_door3
@@ -480,11 +480,11 @@ BA_SEC2_RANGE2 barney/ba_security2_range2
 // ba_elevator
 BA_HEY barney/ba_heeey
 
-// ba_canal scripts
+// Скрипты из ba_canal
 BA_CANAL_WOUND2 barney/ba_canal_wound1
 BA_CANAL_DEATH1 barney/ba_canal_death1
 
-// ba_power scripts
+// Скрипты из ba_power
 BA_POWER1 barney/ba_power1
 BA_POWER2 barney/ba_power2
 BA_POWER3 barney/ba_power3
@@ -496,7 +496,7 @@ BA_DIE1 barney/ba_die1
 BA_AREYOUCRAZY barney/ba_crazy
 
 
-// OTIS (for 'barney')
+// ОТИС (для 'Барни')
 
 OT_CHAT1 otis/hell
 BA_CHAT1 barney/ba_friends
@@ -507,7 +507,7 @@ OT_MMMM otis/mmmm
 OT_LEFTOVERS otis/leftovers
 
 
-// SCIENTIST
+// УЧЁНЫЙ
 
 SC_OK0 scientist/sc_ok0
 SC_OK1 scientist/sc_ok1
@@ -528,14 +528,14 @@ SC_WAIT4 scientist/illwaithere
 SC_WAIT5 scientist/istay
 SC_WAIT6 scientist/illwait
 
-// fail to follow player any more
+// Больше не может следовать за игроком
 SC_STOP0 scientist/stop1
 SC_STOP1 scientist/stop2
 SC_STOP2 scientist/stop4
 SC_STOP3 scientist/sc_stop3
 
 
-// player is staring at scientist
+// Игрок уставился на учёного
 SC_STARE0 scientist/yees
 SC_STARE1 scientist/areyouthink
 SC_STARE2 scientist/noidea
@@ -695,7 +695,7 @@ SC_SCARED0 scientist/whatyoudoing
 SC_SCARED1 scientist/stopattacking
 SC_SCARED2 scientist/youinsane
 
-// predisaster scientist
+// Учёный до катастрофы
 
 SC_PHELLO0 scientist/greetings2
 SC_PHELLO1 scientist/hello
@@ -732,18 +732,18 @@ SC_PIDLE8 scientist/reportflux
 SC_PIDLE9 scientist/simulation
 SC_PIDLE10 scientist/hopenominal
 
-//If you use Scientists in Hazard Course
+// Если ты используешь учёных в учебном курсе
 SC_HAZ_OK0 holo/tr_sci_use
 
-//If you unuse Scientists in Hazard Course
+// Если ты не используешь учёных в учебном курсе
 SC_HAZ_WAIT0 holo/tr_sci_unuse
 
-//Scientists in Hazard Course
+// Учёные в учебном курсе
 SC_GOODWORK ba_holo/tr_sci_gwbarney
 SC_HARDLYNOTICE holo/tr_sci_hardlynoticed
 SC_NEXTSTATION holo/tr_sci_nextstation
 
-//If you use Scientists before the disaster
+// Если ты используешь учёных до катастрофы
 
 SC_POK0 scientist/sc_pok0
 SC_POK1 scientist/sc_pok1
@@ -754,7 +754,7 @@ SC_POK5 scientist/sc_pok5
 SC_POK6 scientist/sc_pok6
 SC_POK7 scientist/sci_bother
 
-// scripts for 'barney'
+// Скрипты для 'Барни'
 
 SC_COUGH scientist/cough
 
@@ -811,11 +811,11 @@ SC_POWER_ALT2 scientist/sc_power_alt2
 SC_POWER_WOUND1 scientist/sc_power_wound1
 SC_POWER_WOUND2 scientist/sc_power_wound2
 
-//c2a3 scripts
+// Скрипты c2a3
 SC_ICKY scientist/c2a3_sci_icky
 SC_TRACK scientist/c2a3_sci_track
 
-//c2a4 scripts
+// Скрипты c2a4
 SC_ARG1A scientist/c2a4_sci_arg2a
 SC_ARG2A scientist/c2a4_sci_arg4a
 
@@ -828,11 +828,11 @@ SC_3PSURG scientist/c2a4_sci_surgury
 SC_ALLDIE scientist/c2a4_sci_alldie
 SC_LETOUT scientist/c2a4_sci_letout
 
-//c2a5 scripts
+// Скрипты c2a5
 SC_BOOBIE scientist/c2a5_sci_boobie
 SC_LEBUZ scientist/c2a5_sci_lebuz
 
-//c3a2 scripts
+// Скрипты c3a2
 
 SC_STRAWS scientist/c3a2_sci_straws
 SC_GLUON2A scientist/c3a2_sci_2glu
@@ -851,11 +851,11 @@ SC_FOREVER scientist/c3a2_sci_forever
 SC_NOTYET scientist/c3a2_sci_notyet
 SC_FOOL scientist/c3a2_sci_fool
 
-//miscellaneous useful scripts
+// Разные полезные скрипты
 SC_LETYOUIN scientist/letyouin
 SC_OVERHERE scientist/overhere
 
-// Dr. Rosenburg
+// Доктор Розенберг
 
 RO_OK0 rosenberg/ro_ok0
 RO_OK1 rosenberg/ro_ok1
@@ -877,7 +877,7 @@ RO_WAIT5 rosenberg/ro_wait5
 RO_WAIT6 rosenberg/ro_wait6
 RO_WAIT7 rosenberg/ro_wait7
 
-// fail to follow player any more
+// Больше не может следовать за игроком
 RO_STOP0 rosenberg/ro_stop0
 RO_STOP1 rosenberg/ro_stop1
 RO_STOP2 rosenberg/ro_stop2
@@ -885,7 +885,7 @@ RO_STOP3 rosenberg/ro_stop3
 RO_STOP4 rosenberg/ro_stop4
 
 
-// player is staring at scientist
+// Игрок уставился на Розенберга
 RO_STARE0 scientist/yees
 RO_STARE1 scientist/areyouthink
 RO_STARE2 scientist/noidea
@@ -1020,7 +1020,7 @@ RO_SCARED0 rosenberg/ro_scared0
 RO_SCARED1 rosenberg/ro_scared1
 RO_SCARED2 rosenberg/ro_scared2
 
-// predisaster scientist
+// Розенберг до катастрофы
 
 RO_PHELLO0 scientist/greetings2
 RO_PHELLO1 scientist/hello
@@ -1057,18 +1057,18 @@ RO_PIDLE8 scientist/reportflux
 RO_PIDLE9 scientist/simulation
 RO_PIDLE10 scientist/hopenominal
 
-//If you use Scientists in Hazard Course
+// Если ты используешь Розенберга в учебном курсе
 RO_HAZ_OK0 holo/tr_sci_use
 
-//If you unuse Scientists in Hazard Course
+// Если ты не используешь Розенберга в учебном курсе
 RO_HAZ_WAIT0 holo/tr_sci_unuse
 
-//Scientists in Hazard Course
+// Розенберг в учебном курсе
 RO_GOODWORK holo/tr_sci_goodwork
 RO_HARDLYNOTICE holo/tr_sci_hardlynoticed
 RO_NEXTSTATION holo/tr_sci_nextstation
 
-//If you use Scientists before the disaster
+// Если ты используешь Розенберга до катастрофы
 
 RO_POK0 scientist/sc_pok0
 RO_POK1 scientist/sc_pok1
@@ -1079,7 +1079,7 @@ RO_POK5 scientist/sc_pok5
 RO_POK6 scientist/sc_pok6
 RO_POK7 scientist/sci_bother
 
-// Barney specific scripts
+// Скрипты, предназначенные для Барни
 
 RO_INSIDE_CAR rosenberg/ro_inside_car
 
@@ -1174,7 +1174,7 @@ RO_OUTRO2 rosenberg/ro_outro2
 
 
 
-// outdoor
+// Улица
 WILD0 ambience/(v30) quail1(p103), quail1(t10), quail1(p101)
 WILD1 ambience/bee1(v75)
 WILD2 ambience/bee2(p105)
@@ -1192,7 +1192,7 @@ WILD10 ambience/des_wind2(v40 p98)
 WILD11 ambience/des_wind3(v40 p103)
 WILD12 ambience/wren1(v80)
 
-// rocket
+// Ракета
 ROCKET0 ambience/steamburst1
 ROCKET1 ambience/steamburst1(p80)
 ROCKET2 ambience/steamburst1(p120)
@@ -1201,7 +1201,7 @@ ROCKET4 ambience/rocket_groan2
 ROCKET5 ambience/rocket_groan3
 ROCKET6 ambience/rocket_groan4
 
-// distant war zone
+// Отдалённая зона боевых действий
 FAR_WAR0 ambience/(v50) distantmortar1
 FAR_WAR1 ambience/(v60) distantmortar2
 FAR_WAR2 ambience/(v50) distantmortar3
@@ -1220,7 +1220,7 @@ FAR_WAR14 ambience/(v15) mgun_burst3 mgun_burst3
 FAR_WAR15 ambience/(v10) rifle1 rifle1
 FAR_WAR16 ambience/(v10) biggun2, biggun2 biggun2
 
-// near war zone
+// Ближняя зона боевых действий
 NEAR_WAR0 ambience/(v60) mgun_burst3 mgun_burst3 mgun_burst3(v50)
 NEAR_WAR1 ambience/(v60) rifle1 rifle2 rifle2 rifle1 rifle1
 NEAR_WAR2 ambience/(v60) alienflyby1
@@ -1237,7 +1237,7 @@ NEAR_WAR12 ambience/(v60) mgun_burst2 mgun_burst2 mgun_burst3 mgun_burst2
 
 
 
-// alien slave
+// Инопланетный раб
 SLV_IDLE0 aslave/slv_word1 slv_word2
 SLV_IDLE1 aslave/slv_word2 slv_word3(p95)
 SLV_IDLE2 aslave/slv_word3 slv_word4
@@ -1257,7 +1257,7 @@ SLV_ALERT3 aslave/(p108) slv_alert1 slv_word5
 SLV_ALERT4 aslave/(p108) slv_word5(p110) slv_word8 slv_word8
 SLV_ALERT5 aslave/(p108) slv_alert4 slv_word7 slv_alert1
 
-// BARNEY HOLOGRAM
+// ГОЛОГРАММА БАРНИ
 
 HOLO_4JUMPS ba_holo/tr_holo_4jumps
 HOLO_ARMOR ba_holo/tr_holo_armor
