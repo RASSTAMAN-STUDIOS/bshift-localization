@@ -504,7 +504,7 @@ OT_1 otis/ot_intro_hello1
 OT_2 otis/ot_intro_hello2
 OT_3 otis/ot_intro_seeya
 OT_MMMM otis/mmmm
-OT_LEFTOVERS otis/leftovers
+OT_LEFTOVERS otis/leftoversbs
 
 
 // УЧЁНЫЙ
